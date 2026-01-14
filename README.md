@@ -1,23 +1,15 @@
-# gamezone_analysis
-
-Welcome to the sample GitHub ReadME! Use this template as an outline for your data analytics projects. Include one ReadME per repository, with each repository storing one project. Remember, it's better to have quality over quantity - having 2 stellar business-relevant projects stands out much more than 3+ mediocre projects. Feel free to make a copy of this or fork this repository and make it your own. Happy portfolio-ing :) 
-
-
-
-
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+Gamezone is a global e-commerce retailer specializing in gaming hardware and consoles, selling directly to consumers across multiple regions. Between 2019 and early 2021, the company experienced significant volatility in demand, creating uncertainty around product performance, marketing effectiveness, and regional sales trends. 
+
+Despite collecting detailed transaction-level data on sales, products, marketing channels, and regions, this data had not been fully leveraged to understand the drivers behind revenue growth and decline. This project thoroughly analyzes and synthesizes this data to identify trends driving revenue growth and decline and uncover actionable insights that will improve Gamezone's commercial success. 
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Sales Trends Over Time:** Analysis of monthly revenue, order volume, and average order value to identify patterns and to inform revenue forecasting.  
+- **Product Performance:** Evaluation of individual product lines to understand top performers, underperforming products, and the drivers behind revenue changes. 
+- **Marketing Channel Impact:** Assessment of marketing channel effectiveness (direct, email, social media, etc) on sales trends, highlighting opportunities to optimize marketing spend and improve ROI. 
+- **Regional Performance:** Evaluation of revenue trends by region to identify geographic strengths and weaknesses and to inform regional sales strategies.  
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
-
-Targed SQL queries regarding various business questions can be found here [link].
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
@@ -31,7 +23,15 @@ The companies main database structure as seen below consists of four tables: tab
 - **Table 4:**
 - **Table 5:**
 
-[Entity Relationship Diagram here]
+| Column Name       | Data Type | Description                                 |
+|------------------|-----------|---------------------------------------------|
+| Order ID          | string    | Unique identifier for each order            |
+| Product Name      | string    | Name of the purchased product               |
+| Purchase Date     | date      | Date the order was placed                    |
+| USD Price         | float     | Revenue from each order                      |
+| Marketing Channel | string    | Channel through which order originated      |
+| Region            | string    | Geographic region of the customer           |
+
 
 
 
