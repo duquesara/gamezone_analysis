@@ -47,7 +47,7 @@ Between 2019 and early 2021, the company experienced rapid revenue growth follow
   
 * **Short-term volatility masked underlying demand resilience.** Despite the early 2021 drop, monthly revenue remained above pre-pandemic 2019 levels, showing that baseline demand remained strong. 
 
-[Visualization: Line chart of monthly revenue Dec 2020 → Feb 2021]
+![Sales Trends](cha
 
 ### Product Performance:
 
