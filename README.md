@@ -17,11 +17,7 @@ An interactive Tableau dashboard used to report and explore sales trends can be 
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+Before analysis, the dataset was reviewed to understand its structure, data types, and key fields relevant to business performance. Initial quality checks were conducted in Excel to confirm consistent date formats, valid revenue values, and complete product, region, and marketing classifications. 
 
 | Column Name       | Data Type | Description                                 |
 |------------------|-----------|---------------------------------------------|
@@ -34,68 +30,55 @@ The companies main database structure as seen below consists of four tables: tab
 
 
 
-
 # Executive Summary
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
-
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+Between 2019 and early 2021, the company experienced rapid revenue growth followed by a sharp **55% decline** in early 2021. While this downturn broadly aligns with post-pandemic demand normalization, deeper analysis reveals that the decline was disproportionately driven by **three core products**. The Sony PlayStation, Gaming Monitor, and Nintendo Switch accounted for **80% of total revenue**, while the **direct marketing channel** was responsible for **85% of revenue**. Regional analysis shows the downturn was global in nature, with **North America contributing 54% of total revenue losses**, especially in PlayStation sales. The following analysis explores these patterns in detail and highlights key opportunities to stabilize revenue and optimize channel and product strategy. 
 
 
 
 # Insights Deep Dive
-### Category 1:
+### Sales Trends:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Revenue peaked in December 2020  following sustained growth since 2018, then declined ~~55% by February 2021.** This drop reflects demand normalization after elevated pandemic-era holiday sales.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Peak-to-trough analysis identifies periods of heightened revenue risk.** The sharp December-February swing highlights when the company is most vulnerable to demand volatility, which informs timing for forecasting and cash flow planning. 
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Short-term volatility masked underlying demand resilience.** Despite the early 2021 drop, monthly revenue remained above pre-pandemic 2019 levels, showing that baseline demand remained strong. 
+
+[Visualization: Line chart of monthly revenue Dec 2020 → Feb 2021]
+
+### Product Performance:
+
+* **Revenue was heavily concentrated in three core products.** The Sony PlayStation, Gaming Monitor, and Nintendo Switch collectively accounted for **80% of total revenue**, making them the primary drivers of growth and decline. PlayStation experienced the steepest drop, falling from $167K → $63K, while Switch and Monitor declined less sharply.  
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 1]
-
-
-### Category 2:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Minor products contributed minimally but highlight opportunities.** Products, like the Headset, accounting for <2% of revenue, could be bundled or promoted to diversify revenue streams and reduce concentration risk.  
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Relative product contribution to decline varies by product.** PlayStation alone accounted for ~35% of the total revenue drop, highlighting the company’s exposure to high-impact product performance.
+
+[Visualization: Stacked bar chart of revenue by product Dec 2020 → Feb 2021]
+
+### Marketing Channel Analysis:
+
+* **Direct channel dominates revenue** Approximately **85% of sales** occurred through Direct marketing channels, highlighting the impact of changes in consumer behavior. 
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Product-level declines were driven by heavy reliance on Direct marketing channels.** All three top products experienced sharp revenue drops, but the impact was most pronounced for the PlayStation, which fell **64%** in Direct channel sales alone, highlighting channel-specific vulnerability. 
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Underutilized channels present opportunities for growth.** Minimal contribution from email, affiliate, and social media channels indicates untapped potential to diversify revenue streams and mitigate risk. 
 
-[Visualization specific to category 2]
+[Visualization: Stacked bar chart of revenue by marketing channel per product]
 
 
-### Category 3:
+### Regional Trends:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Revenue declines were global, but NA drove the majority of losses.** Between December 2020 and February 2021, all regions experienced downturns, but NA accounted for **54% of total revenue loss**, making it the primary contributor to the overall contraction.
+
+* **Top product declines were amplified by regional concentration.** All top three products fell sharply in NA, with PlayStation revenue declining by over **66%** during the period. Similar directional trends across products suggest the downturn was broad-based rather than product-specific. 
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Geographic diversification could stabilize revenue.** Reliance on NA revenue for top products exposes the company to regional market shifts; expanding sales in Europe or APAC could mitigate future risk.
 
-[Visualization specific to category 3]
-
-
-### Category 4:
-
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
-[Visualization specific to category 4]
+[Visualization: Line chart of revenue by region Dec 2020 → Feb 2021, stacked bar chart of revenue by product and region]
 
 
 
