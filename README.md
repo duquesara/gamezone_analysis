@@ -57,7 +57,7 @@ Between 2019 and early 2021, the company experienced rapid revenue growth follow
   
 * **Relative product contribution to decline varies by product.** PlayStation alone accounted for ~35% of the total revenue drop, highlighting the company’s exposure to high-impact product performance.
 
-[Visualization: Stacked bar chart of revenue by product Dec 2020 → Feb 2021]
+![Product Performance](gamezone_chart2.PNG)
 
 ### Marketing Channel Analysis:
 
@@ -67,7 +67,7 @@ Between 2019 and early 2021, the company experienced rapid revenue growth follow
   
 * **Underutilized channels present opportunities for growth.** Minimal contribution from email, affiliate, and social media channels indicates untapped potential to diversify revenue streams and mitigate risk. 
 
-[Visualization: Stacked bar chart of revenue by marketing channel per product]
+![Marketing Channel Analysis](gamezone_chart3.PNG)
 
 
 ### Regional Trends:
@@ -78,7 +78,7 @@ Between 2019 and early 2021, the company experienced rapid revenue growth follow
   
 * **Geographic diversification could stabilize revenue.** Reliance on NA revenue for top products exposes the company to regional market shifts; expanding sales in Europe or APAC could mitigate future risk.
 
-[Visualization: Line chart of revenue by region Dec 2020 → Feb 2021, stacked bar chart of revenue by product and region]
+![Regional Trends](gamezone_chart4.PNG)
 
 
 
