@@ -13,7 +13,7 @@ Insights and recommendations are provided on the following key areas:
 ### Interactive Dashboard
 
 An interactive Tableau dashboard used to explore sales trends and performance can be found here:  
-[View the interactive Tableau dashboard]([https://public.tableau.com/views/GamezoneSalesDashboard](https://public.tableau.com/views/gamezone_tableau_dashboard/SalesPerformanceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link))
+[View the interactive Tableau dashboard](https://public.tableau.com/views/gamezone_tableau_dashboard/SalesPerformanceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # Data Structure & Initial Checks
 
