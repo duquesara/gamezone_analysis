@@ -34,7 +34,7 @@ Before analysis, the dataset was reviewed to understand its structure, data type
 
 ### Overview of Findings
 
-Between 2019 and early 2021, the company experienced rapid revenue growth followed by a sharp **55% decline** in early 2021. While this downturn broadly aligns with post-pandemic demand normalization, deeper analysis reveals that the decline was disproportionately driven by **three core products**. The Sony PlayStation, Gaming Monitor, and Nintendo Switch accounted for **80% of total revenue**, with the **Direct marketing channel** accounting for **85% of revenue**. Regional analysis reveals that the downturn was global in nature, with **North America accounting for 54% of total revenue losses**, particularly in PlayStation sales. The following analysis explores these patterns in detail and highlights key opportunities to stabilize revenue and optimize channel and product strategy. 
+Between 2019 and early 2021, the company experienced rapid revenue growth followed by a sharp **55% decline** in early 2021. While this downturn broadly aligns with post-pandemic demand normalization, deeper analysis reveals that **three core products disproportionately drove the decline**. The Sony PlayStation, Gaming Monitor, and Nintendo Switch accounted for **80% of total revenue**, with the **Direct marketing channel** accounting for **85% of revenue**. Regional analysis reveals that the downturn was global in nature, with **North America accounting for 54% of total revenue losses**, particularly in PlayStation sales. The following analysis explores these patterns in detail and highlights key opportunities to stabilize revenue and optimize channel and product strategy. 
 
 
 
