@@ -14,7 +14,6 @@ Insights and recommendations are provided on the following key areas:
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
 
-
 # Data Structure & Initial Checks
 
 Before analysis, the dataset was reviewed to understand its structure, data types, and key fields relevant to business performance. Initial quality checks were conducted in Excel to confirm consistent date formats, valid revenue values, and complete product, region, and marketing classifications. 
@@ -34,7 +33,7 @@ Before analysis, the dataset was reviewed to understand its structure, data type
 
 ### Overview of Findings
 
-Between 2019 and early 2021, the company experienced rapid revenue growth followed by a sharp **55% decline** in early 2021. While this downturn broadly aligns with post-pandemic demand normalization, deeper analysis reveals that the decline was disproportionately driven by **three core products**. The Sony PlayStation, Gaming Monitor, and Nintendo Switch accounted for **80% of total revenue**, while the **direct marketing channel** was responsible for **85% of revenue**. Regional analysis shows the downturn was global in nature, with **North America contributing 54% of total revenue losses**, especially in PlayStation sales. The following analysis explores these patterns in detail and highlights key opportunities to stabilize revenue and optimize channel and product strategy. 
+Between 2019 and early 2021, the company experienced rapid revenue growth followed by a sharp **55% decline** in early 2021. While this downturn broadly aligns with post-pandemic demand normalization, deeper analysis reveals that the decline was disproportionately driven by **three core products**. The Sony PlayStation, Gaming Monitor, and Nintendo Switch accounted for **80% of total revenue**, while the **direct marketing channel** was responsible for **85% of revenue**. Regional analysis reveals that the downturn was global in nature, with **North America accounting for 54% of total revenue losses**, particularly in PlayStation sales. The following analysis explores these patterns in detail and highlights key opportunities to stabilize revenue and optimize channel and product strategy. 
 
 
 
@@ -65,7 +64,7 @@ Between 2019 and early 2021, the company experienced rapid revenue growth follow
   
 * **Product-level declines were driven by heavy reliance on Direct marketing channels.** All three top products experienced sharp revenue drops, but the impact was most pronounced for the PlayStation, which fell **64%** in Direct channel sales alone, highlighting channel-specific vulnerability. 
   
-* **Underutilized channels present opportunities for growth.** Minimal contribution from email, affiliate, and social media channels indicates untapped potential to diversify revenue streams and mitigate risk. 
+* **Underutilized channels present growth opportunities.** Minimal contribution from email, affiliate, and social media channels indicates untapped potential to diversify revenue streams and mitigate risk. 
 
 ![Marketing Channel Analysis](gamezone_chart3.PNG)
 
@@ -84,26 +83,25 @@ Between 2019 and early 2021, the company experienced rapid revenue growth follow
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights uncovered in this analysis, the following recommendations are proposed to improve revenue stability and reduce concentration risk: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* With approximately 80% of revenue concentrated in three products, performance volatility in any one product has an outsized impact on total revenue. **Expanding accessory offerings and introducing product bundles tied to core products can diversify revenue while capitalizing on existing demand.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* The Direct marketing channel generated approximately 85% of total revenue, amplifying exposure when demand softened. **Strengthening non-direct channels (email, affiliate, and social media) would reduce single-channel dependency and stabilize acquisition during downturns.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* PlayStation experienced the steepest decline and accounted for a disproportionate share of total revenue loss, particularly in North America. **Reassessing regional pricing, inventory allocation, and promotional strategies for PlayStation in NA can help determine whether the decline reflects market saturation or execution gaps.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* Sharp post-holiday peak-to-trough declines indicate sensitivity to seasonal demand normalization. **Incorporating post-holiday adjustments into forecasting, inventory planning, and promotional timing could reduce revenue volatility after peak sales periods**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
+* Low-revenue products contribute minimally on their own, with products like the headsets making up less than 2% of revenue. **Leveraging these products through bundles or add-on promotions may increase average order value before considering discontinuation.** 
 
 
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Revenue trends are used as a proxy for customer demand. This analysis does not account for potential inventory constraints or supply chain disruptions. 
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* Marketing channel attribution reflects the channel associated with each order and does not capture multi-touch or cross-channel customer journeys. 
   
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Regional analysis assumes consistent pricing and product availability across markets. Regional differences in promotions or logistics were not evaluated. 
