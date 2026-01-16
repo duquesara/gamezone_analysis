@@ -1,7 +1,7 @@
 # Project Background
 Gamezone is a global e-commerce retailer specializing in gaming hardware and consoles, selling directly to consumers across multiple regions. Between 2019 and early 2021, the company experienced significant volatility in demand, creating uncertainty around product performance, marketing effectiveness, and regional sales trends. 
 
-Despite collecting detailed transaction-level data on sales, products, marketing channels, and regions, this data had not been fully leveraged to understand the drivers behind revenue growth and decline. This project thoroughly analyzes and synthesizes this data to identify trends driving revenue growth and decline and uncover actionable insights that will improve Gamezone's commercial success. 
+Despite collecting detailed transaction-level data on sales, products, marketing channels, and regions, this data had not been fully leveraged to understand the drivers behind revenue growth and decline. This project thoroughly analyzes and synthesizes this data to **identify trends driving revenue growth and decline** and uncover actionable insights that will improve Gamezone's commercial success. 
 
 Insights and recommendations are provided on the following key areas:
 
@@ -10,9 +10,10 @@ Insights and recommendations are provided on the following key areas:
 - **Marketing Channel Impact:** Assessment of marketing channel effectiveness (direct, email, social media, etc) on sales trends, highlighting opportunities to optimize marketing spend and improve ROI. 
 - **Regional Performance:** Evaluation of revenue trends by region to identify geographic strengths and weaknesses and to inform regional sales strategies.  
 
+### Interactive Dashboard
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
-
+An interactive Tableau dashboard used to explore sales trends, product performance, marketing channels, and regional patterns can be found here:  
+🔗 [View the interactive Tableau dashboard]([https://public.tableau.com/views/YourDashboardName](https://public.tableau.com/views/gamezone_tableau_dashboard/SalesPerformanceDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # Data Structure & Initial Checks
 
@@ -33,7 +34,7 @@ Before analysis, the dataset was reviewed to understand its structure, data type
 
 ### Overview of Findings
 
-Between 2019 and early 2021, the company experienced rapid revenue growth followed by a sharp **55% decline** in early 2021. While this downturn broadly aligns with post-pandemic demand normalization, deeper analysis reveals that the decline was disproportionately driven by **three core products**. The Sony PlayStation, Gaming Monitor, and Nintendo Switch accounted for **80% of total revenue**, while the **direct marketing channel** was responsible for **85% of revenue**. Regional analysis reveals that the downturn was global in nature, with **North America accounting for 54% of total revenue losses**, particularly in PlayStation sales. The following analysis explores these patterns in detail and highlights key opportunities to stabilize revenue and optimize channel and product strategy. 
+Between 2019 and early 2021, the company experienced rapid revenue growth followed by a sharp **55% decline** in early 2021. While this downturn broadly aligns with post-pandemic demand normalization, deeper analysis reveals that the decline was disproportionately driven by **three core products**. The Sony PlayStation, Gaming Monitor, and Nintendo Switch accounted for **80% of total revenue**, with the **Direct marketing channel** accounting for **85% of revenue**. Regional analysis reveals that the downturn was global in nature, with **North America accounting for 54% of total revenue losses**, particularly in PlayStation sales. The following analysis explores these patterns in detail and highlights key opportunities to stabilize revenue and optimize channel and product strategy. 
 
 
 
@@ -60,7 +61,7 @@ Between 2019 and early 2021, the company experienced rapid revenue growth follow
 
 ### Marketing Channel Analysis:
 
-* **Direct channel dominates revenue** Approximately **85% of sales** occurred through Direct marketing channels, highlighting the impact of changes in consumer behavior. 
+* **Direct channel dominates revenue** Approximately **85% of sales** occurred through Direct marketing channels, highlighting heightened exposure to shifts in consumer behavior.
   
 * **Product-level declines were driven by heavy reliance on Direct marketing channels.** All three top products experienced sharp revenue drops, but the impact was most pronounced for the PlayStation, which fell **64%** in Direct channel sales alone, highlighting channel-specific vulnerability. 
   
@@ -91,7 +92,7 @@ Based on the insights uncovered in this analysis, the following recommendations 
   
 * PlayStation experienced the steepest decline and accounted for a disproportionate share of total revenue loss, particularly in North America. **Reassessing regional pricing, inventory allocation, and promotional strategies for PlayStation in NA can help determine whether the decline reflects market saturation or execution gaps.**
   
-* Sharp post-holiday peak-to-trough declines indicate sensitivity to seasonal demand normalization. **Incorporating post-holiday adjustments into forecasting, inventory planning, and promotional timing could reduce revenue volatility after peak sales periods**
+* Sharp post-holiday peak-to-trough declines indicate sensitivity to seasonal demand normalization. **Incorporating post-holiday adjustments into forecasting, inventory planning, and promotional timing could reduce revenue volatility after peak sales periods.**
   
 * Low-revenue products contribute minimally on their own, with products like the headsets making up less than 2% of revenue. **Leveraging these products through bundles or add-on promotions may increase average order value before considering discontinuation.** 
 
